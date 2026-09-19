@@ -1,0 +1,380 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+img {
+  width: 100%;
+}
+.clr {
+  clear: both;
+}
+
+/* ================================= start navbar =================== */
+.navbar {
+  padding: 15px 0;
+  /* position: fixed; */
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+}
+
+.navbar .nav-brand img {
+  width: 200px;
+}
+
+.nav-brand {
+  float: left;
+}
+
+.nav-list {
+  float: right;
+}
+
+.nav-list {
+  list-style: none;
+  padding: 20px 0;
+}
+.nav-list li {
+  display: inline-block;
+  margin-left: 15px;
+}
+.nav-list li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 20px 0;
+  transition: 0.3s;
+}
+.nav-list li a:hover {
+  color: #d27f0a;
+}
+
+/* ================================= end navbar =================== */
+
+/* ================================= start hero =================== */
+.hero {
+  background-image: url("../images/drew-coffman-1872.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.hero-content {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-align: center;
+}
+.hero-content p,
+.hero-content h3 {
+  font-size: 25px;
+}
+.hero-content h1 {
+  font-size: 80px;
+  margin: 25px 0;
+}
+
+.hero .btns {
+  margin-top: 25px;
+}
+.hero .btns button {
+  padding: 12px 30px;
+  cursor: pointer;
+  color: #fff;
+  border-radius: 5px;
+  transition: 0.3s;
+  font-weight: 700;
+}
+.hero .hero-content .btn-main {
+  background-color: #bb9662;
+  border: 2px #bb9662 solid;
+}
+.hero .hero-content .btn-main:hover {
+  background-color: transparent;
+  border: 2px #fff solid;
+}
+
+.hero .hero-content .btn-sec {
+  background-color: transparent;
+  border: 2px #fff solid;
+}
+.hero .hero-content .btn-sec:hover {
+  background-color: #bb9662;
+  border: 2px #bb9662 solid;
+}
+/* ================================= end hero =================== */
+/* ================================= start about =================== */
+.about {
+  padding: 100px 0;
+}
+.container {
+  width: 88%;
+  /* background-color: red; */
+  margin: auto;
+}
+
+.about .about-img {
+  float: left;
+  width: 40%;
+}
+.about .about-img img {
+  border-radius: 5px;
+}
+
+.about .about-content {
+  padding: 40px 0;
+  float: right;
+  width: 53%;
+}
+.about .about-content h3 {
+  font-size: 40px;
+}
+.about .about-content p {
+  color: rgb(104, 104, 104);
+  font-size: 18px;
+  margin-top: 15px;
+  line-height: 27px;
+}
+
+.about .about-list {
+  margin-top: 35px;
+  list-style: none;
+}
+.about .about-list li {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+.about .about-list span {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  /* background-color: red; */
+  border: #bb9662 2px solid;
+  vertical-align: middle;
+  margin-right: 15px;
+}
+
+/* ================================= end about =================== */
+
+/* ================================= start location =================== */
+.location {
+  padding: 100px 0;
+  background-color: #f8f8f8;
+}
+.location .location-img {
+  float: right;
+  width: 40%;
+}
+.location .location-img img {
+  border-radius: 5px;
+}
+
+.location .location-content {
+  float: left;
+  width: 50%;
+  padding-top: 78px;
+}
+.location .location-content h3 {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+.location .location-content p {
+  color: #686868;
+  margin-bottom: 20px;
+  font-size: 18px;
+  line-height: 28px;
+}
+/* ================================= end location =================== */
+/* ================================= start baking =================== */
+
+.baking {
+  padding: 100px 0;
+}
+.baking .main-header {
+  margin-bottom: 50px;
+  text-align: center;
+}
+.baking .main-header h2 {
+  font-size: 35px;
+}
+.baking .main-header p {
+  margin-top: 20px;
+  color: #686868;
+  font-size: 17px;
+}
+
+.baking .cards .card {
+  float: left;
+  width: calc(100% /3);
+  padding :15px;
+}
+.baking .cards .card .inner-card {
+  text-align: center;
+}
+.baking .cards .card .inner-card img {
+  border-radius: 10px;
+}
+.baking .cards .card .inner-card h3 {
+  font-size: 30px;
+  margin: 20px;
+}
+.baking .cards .card .inner-card p {
+  font-size: 17px;
+  color: #686868;
+}
+
+/* ================================= end baking =================== */
+/* ================================= start contact =================== */
+.contact {
+  padding: 100px 0;
+  background-color: #f8f8f8;
+}
+
+.contact .contact-content {
+  float: left;
+  width: 50%;
+}
+.contact .contact-content h2 {
+  font-size: 30px;
+}
+.contact .contact-content p {
+  color: #686868;
+  font-size: 18px;
+  margin: 20px 0 30px;
+  line-height: 28px;
+}
+.contact .contact-content h5 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #686868;
+  margin-bottom: 20px;
+}
+.contact .contact-content ul {
+  list-style: none;
+}
+.contact .contact-content li {
+  margin-bottom: 15px;
+}
+.contact .contact-content li span {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #8e7754;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  margin-right: 20px;
+}
+.contact .contact-content li a {
+  text-decoration: none;
+  color: black;
+}
+.contact .contact-content img {
+  width: 40px;
+}
+
+.contact .contact-map {
+  float: right;
+  width: 45%;
+  border: 2px solid #8e7754;
+}
+
+.contact .contact-map iframe {
+  width: 100% !important;
+}
+/* ================================= end contact =================== */
+
+/* ================================= start footer =================== */
+
+.footer {
+  padding: 100px 0;
+  background-color: #403d38;
+}
+
+.footer img {
+  width: 40px;
+}
+
+.footer .inner-footer .item {
+  width: calc(100% / 4);
+  float: left;
+  padding: 10px;
+}
+
+.footer .inner-footer .item h3 {
+  color: #fff;
+  margin-bottom: 15px;
+}
+.footer .inner-footer .item p {
+  color: #969696;
+  margin-bottom: 20px;
+  line-height: 25px;
+}
+
+.footer .inner-footer .item ul {
+  list-style: none;
+}
+.footer .inner-footer .item ul li {
+  color: #969696;
+  border-bottom: 2px solid #9696961e;
+}
+
+.footer .inner-footer .item a {
+  text-decoration: none;
+  color: #969696;
+  transition: 0.3s;
+}
+.footer .inner-footer .item a:hover {
+  color: #fff;
+}
+
+.footer .inner-footer .item ul span {
+  vertical-align: middle;
+}
+/* ================================= end footer =================== */
+
+/* ================================= start bottom-footer =================== */
+
+.bottom-footer {
+  padding: 50px 0;
+  background-color: #353330;
+  text-align: center;
+}
+
+.bottom-footer .logo {
+  width: 380px;
+}
+.bottom-footer p {
+  color: #969696;
+  font-size: 18px;
+  margin-top: 40px;
+}
+.brand {
+  color: #d27f0a;
+}
+.socail-medal {
+  margin-top: 50px;
+}
+.socail-medal span {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #8e77546f;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.socail-medal span:hover{
+  background-color:#d27f0a;
+}
